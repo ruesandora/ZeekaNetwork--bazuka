@@ -2,11 +2,11 @@
 
 ![image](https://user-images.githubusercontent.com/101149671/188958599-67a3b79f-9dc1-450f-b2fd-4461598b9100.png)
 
-<h1 align="center"> Selamlar, bu repoda Zeeka Network node kurulumu ve miner olma rehberi mevcut. </h1>
-
+<h1 align="center"> Selamlar, bu repoda Zeeka Network node kurulum rehberi ile karşınızdayım </h1>
  * Cosmos dışı bir proje olduğu için kurmanızı öneririm
  * Ödüllü değil, ödüllü testnet yakında
  * Hocam sunucum boşta ne kuralım diyenler için
+ * Sorularınız için: [Sohbet kanalı](https://discord.gg/jZBhUBf7)
 
 ## Sistem gereksinimleri:
 ```
@@ -70,6 +70,7 @@ bazuka init --seed 38b4d78c7d6582fb170f6c19330a7e37e6964212@rues.forum.info:8765
 ## nodu kuruyoruz:
 
  * your external ip kısmını sunucu ip'inizi girin ve daha sonra parantezleri kaldırın
+
 ```
 bazuka node --listen 0.0.0.0:8765 --external [your external ip]:8765 \
 
@@ -93,8 +94,5 @@ bazuka node
 
 ![image](https://user-images.githubusercontent.com/101149671/188964602-895b445c-8829-4d72-bb5a-ed57a0a41f84.png)
 
-
-
-
-
+## Miner floodu paylaşmadım, yakında ödüllüye geçeceğiz zaten, illa kuracağım derseniz: [Rehber](https://github.com/zeeka-network/bazuka)
 
