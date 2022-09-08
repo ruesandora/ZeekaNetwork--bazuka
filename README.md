@@ -69,16 +69,6 @@ source "$HOME/.cargo/env"
 bazuka init --seed 38b4d78c7d6582fb170f6c19330a7e37e6964212@rues.forum.info:8765 --network debug --node 127.0.0.1:8765
 ```
 
-## nodu kuruyoruz:
-
- * your external ip kısmını sunucu ip'inizi girin ve daha sonra parantezleri kaldırın
-
-```
-bazuka node --network debug --bootstrap 152.228.155.120:8765
-
-  --network debug --db ~/.bazuka-debug --bootstrap [bootstrap node 1] --bootstrap [bootstrap node 2] ...
-```
-
 ## nodu çalıştırıyoruz:
 ```
 apt install screen
@@ -87,7 +77,7 @@ apt install screen
 screen -S bazuka
 ```
 ```
-bazuka node
+bazuka node --network debug --bootstrap 152.228.155.120:8765 --db ~/.bazuka-debug
 ```
 
 ## Nodunuz bu şekilde çalışır olacak:
