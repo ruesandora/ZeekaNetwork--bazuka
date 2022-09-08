@@ -59,9 +59,7 @@ cd bazuka && cargo install --path .
 
 ## Görselde ki gibi bir uyarı alırsanız bu komutu
 ```
-if [ -d "$HOME/.cargo/bin" ] ; then
-  PATH="$PATH:$HOME/.cargo/bin"
-fi
+source "$HOME/.cargo/env"
 ```
 
 ![image](https://user-images.githubusercontent.com/101149671/188959534-3ea71c13-fe85-430b-8cdb-8c0650c982ec.png)
@@ -76,7 +74,7 @@ bazuka init --seed 38b4d78c7d6582fb170f6c19330a7e37e6964212@rues.forum.info:8765
  * your external ip kısmını sunucu ip'inizi girin ve daha sonra parantezleri kaldırın
 
 ```
-bazuka node --listen 0.0.0.0:8765 --external [your external ip]:8765 \
+bazuka node --network debug --bootstrap 152.228.155.120:8765
 
   --network debug --db ~/.bazuka-debug --bootstrap [bootstrap node 1] --bootstrap [bootstrap node 2] ...
 ```
