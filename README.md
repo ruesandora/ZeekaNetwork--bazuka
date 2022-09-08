@@ -3,9 +3,13 @@
 ![image](https://user-images.githubusercontent.com/101149671/188958599-67a3b79f-9dc1-450f-b2fd-4461598b9100.png)
 
 <h1 align="center"> Selamlar, bu repoda Zeeka Network node kurulum rehberi ile karşınızdayım </h1>
+
  * Cosmos dışı bir proje olduğu için kurmanızı öneririm
+
  * Ödüllü değil, ödüllü testnet yakında
+
  * Hocam sunucum boşta ne kuralım diyenler için
+
  * Sorularınız için: [Sohbet kanalı](https://discord.gg/jZBhUBf7)
 
 ## Sistem gereksinimleri:
