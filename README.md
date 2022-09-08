@@ -100,3 +100,4 @@ bazuka node
 
 ## Miner floodu paylaşmadım, yakında ödüllüye geçeceğiz zaten, illa kuracağım derseniz: [Rehber](https://github.com/zeeka-network/bazuka)
 
+## Explorer [Linki](http://152.228.155.120:8000/)
