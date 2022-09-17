@@ -10,7 +10,7 @@
 
  * Hocam sunucum boşta ne kuralım diyenler için
 
- * Sorularınız için: [Sohbet kanalı](https://discord.gg/jZBhUBf7)
+ * Sorularınız için: [Sohbet kanalı](https://t.me/ZeekaNetworkTurkish)
 
 ## Sistem gereksinimleri:
 ```
